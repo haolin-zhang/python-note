@@ -1,5 +1,7 @@
 
-# Setup VS Code
+# Configuration
+
+## Setup VS Code
 
 Use "Ctrl+Shift+P" to invoke Command Palette, for configuration of interpreter, color theme, and etc.
 
@@ -9,7 +11,7 @@ For executing commands, use "Ctrl+Shift+P" to open new terminal by selecting "Te
 
 Use "Ctrl+Shift+P" to select Python interpreter by selecting "Python: Select Interpreter".
 
-# Configure & Use Packages
+## Configure & Use Packages
 
 PIP is a package manager for Python. It is usually installed with Python environment. Common used commands includes:
 
@@ -27,7 +29,7 @@ pip uninstall matplotlib
 pip list
 ```
 
-# Virtual Environments
+## Virtual Environments
 
 In Python, different applications can use different virtual environments. The module used to create and manage virtual environments is called venv, which comes with Python installation.
 
