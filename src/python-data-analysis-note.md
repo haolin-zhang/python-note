@@ -17,35 +17,39 @@
 
 ## Community
 
-Kaggle is an online community of data scientists and engineers. Kaggle provides public data sets for data science education study, or competitions to solve data science challenges.
+**Kaggle** is an online community of data scientists and engineers. Kaggle provides public data sets for data science education study, or competitions to solve data science challenges.
 
 ## Popular Libraries
 
 ### Data Science
 
-Popular libraries used in data science and engineering fields include:
+Popular libraries used in Data Science include:
 
-NLTK is an open source Python library for natural language processing (NLP).
+- **NumPy**  
+  an open source library for mathematical operations
 
-Requests is a Python HTTP library. Beautiful Soup is a Python library for parsing HTML and XML. Together they are used for data acquisition.
+- **Matplotlib**  
+  an open source library for plotting and visualization
 
-Pandas is an open source library for Python, built on top of NumPy library, used for data analysis and manipulation.
+- **SciPy**  
+  an open source library for statistical analysis
 
-Pandas is often used with NumPy (for mathematical operations), Matplotlib (for plotting and visualization), SciPy (for statistical analysis), Scikit-learn (for machine learning).
-
-Pandas provides two data structures for manipulating data: Series and DataFrame.
-
-Series is a one-dimensional labelled array, while the axis label is called "index". Series resembles a column in an Excel sheet.
-
-DataFrame is a two-dimensional table data structure with labeled axes (rows and columns). DataFrame resembles a table in an Excel sheet.
+- **Pandas**  
+  an open source library for Python, built on top of NumPy library, used for data analysis and manipulation
 
 ### Web Scraping
 
-Requests: a Python library for retrieving information from websites.
-BeautifulSoup: a Python library for parsing HTML and XML
+Popular libraries used in Web Scraping include:
+
+- **Requests**  
+  a Python HTTP library
+
+- **Beautiful Soup**  
+  a Python library for parsing HTML and XML. Together with Requests, are used for data acquisition
 
 Example:
 
+```python
 import requests
 from bs4 import BeautifulSoup as beautifulSoup
 
@@ -62,29 +66,39 @@ for link in url:
     
     for anchor in soup.find_all("a"):
         print(anchor.get("href", "/"))
+```
 
 ### Natural Language Processing
 
-NLTK: an open source Python library for natural language processing (NLP).
+Popular libraries used in Natural Language Processing (NLP) include:
+
+- **NLTK**  
+  an open source Python library for natural language processing (NLP)
 
 Practical usage scenario: Analyze volume of vocabulary based on a sample of writing paragraph.
 
 ### Machine Learning
 
+Libraries used in Machine Learning (ML) include:
+
+- **Scikit-Learn**  
+  an open source library for machine learning
+
 Types of machine learning:
 
-•	Supervised Learning
-	deal with classification or regression problems (data has labels)
-	boundary between right and wrong during prediction is clear
-	common tools: support vector machine (SVM), random forests, navie Bayes
+- **Supervised Learning**  
+  deal with classification or regression problems (data has labels)  
+  boundary between right and wrong during prediction is clear  
+  common tools: support vector machine (SVM), random forests, navie Bayes
 
-•	Unsupervised Learning
-	deal with clustering or assocation problems (data has no label)
-	common tools: k-means clustering, hidden markov models
+- **Unsupervised Learning**  
+  deal with clustering or assocation problems (data has no label)  
+  common tools: k-means clustering, hidden markov models
 
-•	Reinforcement Learning
-	common tools: monte carlo, evolutionary algorithms
+- **Reinforcement Learning**  
+  common tools: monte carlo, evolutionary algorithms
 
-Deep learning:
+- **Deep Learning**  
+  a type of machine learning which mocks how brain organizes and works, based on Artificial Neural Network (ANN)
 
-A type of machine learning which mocks how brain organizes and works, based on artificial neural network (ANN).
+
