@@ -10,10 +10,10 @@
 
 ## Tools Set
 
-- Atom (Python IDE)
-- Power BI (Data Visualization)
-- Amazon RDS (Database system)
-- Datagrip (Database IDE)
+- **Atom** (Python IDE)
+- **Power BI** (Data Visualization)
+- **Amazon RDS** (Database system)
+- **Datagrip** (Database IDE)
 
 ## Community
 
