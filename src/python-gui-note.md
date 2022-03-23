@@ -4,7 +4,7 @@ Kivy is a free and open source Python framework for GUI development.
 
 - **Installment**
 
-```command
+```shell
 # install Kivy framework
 pip install kivy
 ```
@@ -24,7 +24,7 @@ TestApp().run()
 
 Execute the Program:
 
-```command
+```shell
 python demo.py
 ```
 
